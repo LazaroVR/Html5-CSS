@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm (centimetro), mm (milimetro), in(polegada), px(pixel), pt(ponto), pc(paica)
+    
+    Medidas Relativas
+    em(medida relativa ao tamanho atual da fonte), ex(altura X), rem(Relativo ao ruty),vw(viewport - largura da tela),  vh(viewport - altura da tela), %.
+    */
+    font-size: 1em;
+}
+h1{
+    /* 
+    pode-se colocar esses codigos em um unico codigo com a tag "Font:" conhecido tambem como shorthand (traduzindo seria, dar uma maozinha).
+    
+    apos usar o codigo usa-se a sequencia = Font-Style --> Font-weight --> Font-size --> Font-family.
+    */
+    font: italic bolder 3m 'work sans',sans-serif;
+}
+h2{
+    font: bold 2m 'work sans';
+}
